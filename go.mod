@@ -1,3 +1,3 @@
-module github.com/alphabiz-se2/wowchemy-widget-test
+module github.com/alphabiz-se2/wowchemy-module-chipchain
 
 go 1.15
