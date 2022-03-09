@@ -5,10 +5,12 @@
 
 <div class="cc-features">
   <div class="cc-features-container {{if $params.flip}}{{ printf "flip" }}{{end}}">
+    {{if isset $params "image"}}
     <div class="cc-features-img">
       {{$image := partial "functions/get_media_image" $params.image}}
       <img src="{{ $image.RelPermalink }}" alt="{{.}}">
     </div>
+    {{end}}
     <div>
       <h2 class="cc-features-title">{{$title | markdownify | emojify | safeHTML}}</h2>
       <div class="cc-features-content">{{$content | markdownify | emojify | safeHTML}}</div>
