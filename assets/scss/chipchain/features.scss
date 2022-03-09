@@ -79,10 +79,10 @@
   margin: 0 0.5rem;
 
   transition: 100ms ease-in-out box-shadow;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 
   &:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
   }
 
   & * {
