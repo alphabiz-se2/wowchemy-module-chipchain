@@ -6,6 +6,7 @@
 
 .wg-cc-hero .home-section-bg {
   overflow: hidden;
+  background-color: black;
   &::after{
     content: '';
     display: block;
@@ -32,6 +33,7 @@
   .cc-hero-content {
     color: white !important;
     font-size: 1rem;
+    opacity: 0.6;
   }
 
   .cc-hero-actions {
