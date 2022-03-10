@@ -16,7 +16,7 @@
         {{ $iconClz := partial "functions/get_icon_classes" (dict "icon" $params.cta.icon "pack" $params.cta.icon_pack) }}
         <i class="{{ $iconClz }} mr-1" aria-hidden="true"></i>
       {{end}}
-      {{$params.cta.label | markdownify | emojify | safeHTML}}
+      <span>{{- $params.cta.label | markdownify | emojify | safeHTML -}}</span>
     </a>
 
     <!-- cta alt -->

@@ -28,13 +28,14 @@
 
   .cc-hero-title {
     color: white;
-    font-size: 4rem;
+    font-size: 3.6rem;
     font-weight: bolder;
   }
 
   .cc-hero-content {
     color: rgba(255, 255, 255, 0.6) !important;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    line-height: 2;
   }
 
   .cc-hero-actions {
@@ -52,8 +53,10 @@
   border-radius: 4px;
   padding: 0.25rem 1.5rem;
   min-width: 200px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
+  line-height: 2;
+  text-align: center;
 
   &:hover {
     filter: brightness(1.2);
