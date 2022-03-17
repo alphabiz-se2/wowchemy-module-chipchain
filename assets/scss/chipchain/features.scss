@@ -60,7 +60,7 @@
     height: 0.3rem;
     width: 3rem;
     border-radius: 0.15rem;
-    background-color: $sta-primary;
+    background-color: var(--primary-color);
   }
 
   .cc-features-content {
@@ -71,7 +71,7 @@
 }
 
 .cc-features-item {
-  background-color: $sta-primary;
+  background-color: var(--primary-color);
   flex: 1;
   padding: 1.5rem;
   border-radius: 8px;
